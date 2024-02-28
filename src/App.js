@@ -7,7 +7,7 @@ function App() {
   const [showRickroll, setShowRickroll] = useState(false);
 
   const toggleRickroll = () => {
-    setShowRickroll(!showRickroll); // Toggle the state between true and false
+    setShowRickroll(!showRickroll);
   };
 
   const handleLetterSelection = (letter) => {
